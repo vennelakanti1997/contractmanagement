@@ -1,0 +1,34 @@
+.hero{
+    width: 35%;
+    margin:auto;
+}
+
+.accordion{
+    padding-bottom: 30px;
+    position: relative;
+    max-width:100%;
+    margin-top:20px;
+}
+
+.link{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.link:hover{
+    color:red;
+    transition: all 0.2s ease-in;
+}
+
+@media screen and (max-width:600px){
+    .accordion{
+        max-width: 100%;
+    }
+}
+
+
+@media screen and (min-width:600px){
+    .accordion{
+        max-width: 100%;
+    }
+}
