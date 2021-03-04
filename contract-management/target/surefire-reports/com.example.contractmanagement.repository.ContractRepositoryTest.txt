@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.example.contractmanagement.repository.ContractRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 15.525 s <<< FAILURE! - in com.example.contractmanagement.repository.ContractRepositoryTest
+testFindById  Time elapsed: 0.616 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <false> but was: <true>
+	at com.example.contractmanagement.repository.ContractRepositoryTest.testFindById(ContractRepositoryTest.java:130)
+
+testFindByStatuses  Time elapsed: 1.351 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <10> but was: <1>
+	at com.example.contractmanagement.repository.ContractRepositoryTest.testFindByStatuses(ContractRepositoryTest.java:171)
+

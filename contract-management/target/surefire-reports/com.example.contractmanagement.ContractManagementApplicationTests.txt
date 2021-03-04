@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.example.contractmanagement.ContractManagementApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 17.241 s <<< FAILURE! - in com.example.contractmanagement.ContractManagementApplicationTests
+testGetSuppliersofActiveContracts  Time elapsed: 7.473 s  <<< ERROR!
+java.lang.StackOverflowError
+

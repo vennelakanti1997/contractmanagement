@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: com.example.contractmanagement.repository.ProposalRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 3.49 s <<< FAILURE! - in com.example.contractmanagement.repository.ProposalRepositoryTest
+testViewAllProposals  Time elapsed: 0.523 s  <<< ERROR!
+org.springframework.dao.InvalidDataAccessApiUsageException: org.hibernate.TransientPropertyValueException: object references an unsaved transient instance - save the transient instance before flushing : com.example.contractmanagement.model.Proposal.requirement -> com.example.contractmanagement.model.Requirement; nested exception is java.lang.IllegalStateException: org.hibernate.TransientPropertyValueException: object references an unsaved transient instance - save the transient instance before flushing : com.example.contractmanagement.model.Proposal.requirement -> com.example.contractmanagement.model.Requirement
+	at com.example.contractmanagement.repository.ProposalRepositoryTest.testViewAllProposals(ProposalRepositoryTest.java:69)
+Caused by: java.lang.IllegalStateException: org.hibernate.TransientPropertyValueException: object references an unsaved transient instance - save the transient instance before flushing : com.example.contractmanagement.model.Proposal.requirement -> com.example.contractmanagement.model.Requirement
+	at com.example.contractmanagement.repository.ProposalRepositoryTest.testViewAllProposals(ProposalRepositoryTest.java:69)
+Caused by: org.hibernate.TransientPropertyValueException: object references an unsaved transient instance - save the transient instance before flushing : com.example.contractmanagement.model.Proposal.requirement -> com.example.contractmanagement.model.Requirement
+	at com.example.contractmanagement.repository.ProposalRepositoryTest.testViewAllProposals(ProposalRepositoryTest.java:69)
+
+testViewProposalsBySupplier  Time elapsed: 0.49 s  <<< ERROR!
+org.springframework.dao.InvalidDataAccessApiUsageException: org.hibernate.TransientPropertyValueException: object references an unsaved transient instance - save the transient instance before flushing : com.example.contractmanagement.model.Proposal.requirement -> com.example.contractmanagement.model.Requirement; nested exception is java.lang.IllegalStateException: org.hibernate.TransientPropertyValueException: object references an unsaved transient instance - save the transient instance before flushing : com.example.contractmanagement.model.Proposal.requirement -> com.example.contractmanagement.model.Requirement
+	at com.example.contractmanagement.repository.ProposalRepositoryTest.testViewProposalsBySupplier(ProposalRepositoryTest.java:102)
+Caused by: java.lang.IllegalStateException: org.hibernate.TransientPropertyValueException: object references an unsaved transient instance - save the transient instance before flushing : com.example.contractmanagement.model.Proposal.requirement -> com.example.contractmanagement.model.Requirement
+	at com.example.contractmanagement.repository.ProposalRepositoryTest.testViewProposalsBySupplier(ProposalRepositoryTest.java:102)
+Caused by: org.hibernate.TransientPropertyValueException: object references an unsaved transient instance - save the transient instance before flushing : com.example.contractmanagement.model.Proposal.requirement -> com.example.contractmanagement.model.Requirement
+	at com.example.contractmanagement.repository.ProposalRepositoryTest.testViewProposalsBySupplier(ProposalRepositoryTest.java:102)
+
+testViewProposalsByStatus  Time elapsed: 0.446 s  <<< ERROR!
+org.springframework.dao.InvalidDataAccessApiUsageException: org.hibernate.TransientPropertyValueException: object references an unsaved transient instance - save the transient instance before flushing : com.example.contractmanagement.model.Proposal.requirement -> com.example.contractmanagement.model.Requirement; nested exception is java.lang.IllegalStateException: org.hibernate.TransientPropertyValueException: object references an unsaved transient instance - save the transient instance before flushing : com.example.contractmanagement.model.Proposal.requirement -> com.example.contractmanagement.model.Requirement
+	at com.example.contractmanagement.repository.ProposalRepositoryTest.testViewProposalsByStatus(ProposalRepositoryTest.java:61)
+Caused by: java.lang.IllegalStateException: org.hibernate.TransientPropertyValueException: object references an unsaved transient instance - save the transient instance before flushing : com.example.contractmanagement.model.Proposal.requirement -> com.example.contractmanagement.model.Requirement
+	at com.example.contractmanagement.repository.ProposalRepositoryTest.testViewProposalsByStatus(ProposalRepositoryTest.java:61)
+Caused by: org.hibernate.TransientPropertyValueException: object references an unsaved transient instance - save the transient instance before flushing : com.example.contractmanagement.model.Proposal.requirement -> com.example.contractmanagement.model.Requirement
+	at com.example.contractmanagement.repository.ProposalRepositoryTest.testViewProposalsByStatus(ProposalRepositoryTest.java:61)
+
