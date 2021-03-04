@@ -1,0 +1,23 @@
+.NavbarItems {
+    background-color: #4361ee;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+h1{
+    margin: 0;
+}
+.navbar-logo {
+    color: #fff;
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+    padding:0;
+} 
+
+.fa-react {
+    margin-left: 0.5rem;
+    font-size: 1.6rem;
+}
