@@ -1,0 +1,8 @@
+.required {
+  border: 1px solid red;
+  background: lightgreen;
+}
+
+#dropdown-basic-button{
+  width:100%;
+}
